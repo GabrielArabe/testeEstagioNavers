@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "03fb50c9-9e0c-4b3a-98fa-d261261fdc72",
+		"name": "Navers API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/Navers/Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Navers/Index",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Navers",
+						"Index"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Navers/Show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Navers/Show/31E01602-768F-4FC0-85F9-6FBE87279564",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Navers",
+						"Show",
+						"31E01602-768F-4FC0-85F9-6FBE87279564"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Navers/Store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Fulano\",\r\n    \"birthdate\": \"1998-06-12\",\r\n    \"admission_date\": \"2020-06-12\",\r\n    \"job_role\": \"Desenvolvedor\",\r\n    \"projects\": [\r\n        \"0C380144-B743-486F-A185-4E88D6D5F1C3\",\r\n        \"19EF8286-7159-4E29-B293-ECE9DFE903B6\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Navers/Store",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Navers",
+						"Store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Projetos/Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Projetos/Index",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Projetos",
+						"Index"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Projetos/Show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Projetos/Show/0C380144-B743-486F-A185-4E88D6D5F1C3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Projetos",
+						"Show",
+						"0C380144-B743-486F-A185-4E88D6D5F1C3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Projetos/Store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Projeto Bom\",\r\n    \"navers\": [\r\n        \"89D66A66-805C-4721-954B-01FFDDA53026\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Projetos/Store",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Projetos",
+						"Store"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
