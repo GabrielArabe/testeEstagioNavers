@@ -25,3 +25,5 @@ Para testar o teste de Backend o qual estou me candidatando para vaga de estági
 - Para verificar todos os projects cadastrados utilize o Get do /Projetos/Index.
 - Para verificar um project em específico utilize o Get do Projetos/Show/ e utilize como referência o ID, para isso utilize o GUID válido que foi consultado no Get do /Projetos/Index.
 - Para adicionar um project, utilize o post do Projetos/Store e no body informe todos os campos solicitados.
+
+Os exercícios de manipulação do banco de dados estão no repositório: \testeNaveTeam\naversapi\scripts
