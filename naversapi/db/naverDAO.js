@@ -27,7 +27,7 @@ const getNaverDetail = (id, callback) => {
 
             for (let index = 0; index < result.length; index++) {
                 const p = result[index];
-                projects.push({id: p.project_id, name: project_name});                
+                projects.push({id: p.project_id, name: p.project_name});                
             }
 
             finalResult = {
